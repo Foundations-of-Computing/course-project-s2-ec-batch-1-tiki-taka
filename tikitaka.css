@@ -1,0 +1,51 @@
+html{ color-scheme: dark;}
+
+body{
+    color:rgb(255, 255, 255);
+    font-size: 1.125rem;
+    font-family: system-ui;
+    line-height: 1.5;
+}
+.tikitaka {
+    width: min(500px,100%-3rem);
+    margin-inline: auto;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    background: #323232;
+}
+th,td{
+    padding: 1rem;
+    
+}
+caption,th{
+    text-align: left;
+}
+caption{
+    border: black;
+    font-size:1.5rem ;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+th{
+    background: hsl(0 0% 0% /0.5);
+}
+tr:nth-of-type(2n){
+    background: hsl(0 0% 0% /0.1);
+}
+
+table.table2{
+    width: 100%;
+    border-collapse: collapse;
+    background: #b81515;
+}
+table.table3{
+    width: 100%;
+    border-collapse: collapse;
+    background: indigo;
+}
+
+
+}
